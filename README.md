@@ -93,18 +93,7 @@ Add `--models LinearSVC,LogisticRegression,NaiveBayes,RandomForest,kNN` to inclu
 9. Per-class F1 change and confusion matrices (all vs. best selected)
 10. Per-model ladder: accuracy, Macro-F1, training and inference time at every step
 
-## 7. Results
-> **To be filled after running the full experiment.** Paste the headline table from
-> `results/comparison_table.csv` here and summarise:
-> best method per model, smallest k that stays within 1 point, speedups achieved,
-> which models benefit most, and the weakest classes after selection.
 
-| Setup | Number of Features | Accuracy | Macro-F1 | Training Time (s) | Inference Time (ms/1000 samples) |
-|---|---|---|---|---|---|
-| All features (baseline) | | | | | |
-| ... | | | | | |
-
-## 8. Limitations and future work
 - One dataset and TF-IDF features only; default hyper-parameters.
 - Timings depend on the machine; results use one random seed.
 - Future work: embeddings, wrapper methods (RFE), several seeds with error bars,
