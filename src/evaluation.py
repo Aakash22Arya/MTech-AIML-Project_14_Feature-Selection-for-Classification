@@ -2,11 +2,6 @@
 evaluation.py
 Metrics, timing, experiment runners, result tables and figures.
 
-Run everything from the command line:
-    python -m src.evaluation --data 20newsgroups
-    python -m src.evaluation --data 20newsgroups --fast
-    python -m src.evaluation --data sample          (tiny smoke test)
-
 Metrics: Number of Features, Accuracy, Macro-F1, Training Time, Inference Time
 Verdict rule ("without sacrificing performance"):
     Accuracy and Macro-F1 each drop by <= TOL_PTS points vs. all features
